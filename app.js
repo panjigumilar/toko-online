@@ -20,7 +20,7 @@ db.once("open",function(){
 
 // setup index
 app.get('/', function(req,res){
-    res.send('Ini adalah index , sudah konek ke mongo');
+    res.send('Ini adalah index , sudah konek ke mongo tes'); 
 });
 
 
